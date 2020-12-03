@@ -21,7 +21,7 @@ img {
 
 .nav-container {
   background: #3B8080;
-  font-size: 8px;
+  font-size: 14px;
 }
 
 .nav-container a {
@@ -64,7 +64,7 @@ header ul a {
   display: -ms-grid;
   display: grid;
   text-align: center;
-  padding: 4em;
+  padding: 2em;
   line-height: 2em;
 }
 
@@ -95,15 +95,15 @@ section {
 .more-title {
   font-weight: bold;
   font-size: 17px;
-  text-align: justify;
-  padding: 0em 4em;
+  text-align: center;
+  padding: 0em 1em;
   margin-top: 2em;
   margin-bottom: 2em;
 }
 
 .more-desc {
-  text-align: justify;
-  padding: 0em 4em;
+  text-align: center;
+  padding: 0em 1em;
 }
 
 .service {
@@ -135,31 +135,25 @@ section {
   margin-bottom: 2em;
 }
 
-.portfolio {
-  padding-top: 7em;
-}
-
 .left-container {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
-  margin: 4em 0em;
 }
 
 .left-container .img-left {
-  margin-left: -4em;
   border-radius: 20px;
 }
 
 .left-container .img-left.one {
-  width: 85%;
+  width: 100%;
 }
 
 .left-container .img-left.two {
-  width: 85%;
+  width: 100%;
 }
 
-.left-container .right {
+.right {
   height: 6em;
   padding: 3em 2em;
   background: white;

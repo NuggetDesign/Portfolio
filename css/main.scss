@@ -18,7 +18,7 @@ img {width:100%;}
 
 .nav-container {
     background: #3B8080;
-    font-size: 8px;
+    font-size: 14px;
 
     a {
         color: white;
@@ -54,7 +54,7 @@ header {
     color: white;
     display: grid;
     text-align: center;
-    padding: 4em;
+    padding: 2em;
     line-height: 2em;
 }
 
@@ -81,18 +81,18 @@ section {
     text-align: center;
 }
 
-.more-title {
+.more-title{
     font-weight: bold;
     font-size: 17px;
-    text-align: justify;
-    padding: 0em 4em;
+    text-align: center;
+    padding: 0em 1em;
     margin-top: 2em;
     margin-bottom: 2em;
 }
 
 .more-desc {
-    text-align: justify;
-    padding: 0em 4em;
+    text-align: center;
+    padding: 0em 1em;
 }
 
 .service {
@@ -125,40 +125,34 @@ section {
     margin-bottom: 2em;
 }
 
-.portfolio {
-    padding-top: 7em;
-}
 .left-container {
     display: flex;
-    margin: 4em 0em;
 
     .img-left {
-        margin-left: -4em;
         border-radius: 20px;
 
         &.one {
-            width: 85%;
+            width: 100%;
         }
 
         &.two {
-            width: 85%;
+            width: 100%;
         }
 
-    }
-
-    .right {
-        height: 6em;
-        padding: 3em 2em;
-        background: white;
-        line-height: 1em;
-        margin-left: -5em;
-        margin-top: 1em;
-        border-radius: 5%;
-        box-shadow: 5px 5px 5px 0 rgba(0,0,0,0.05);
     }
 
 }
 
+.right {
+    height: 6em;
+    padding: 3em 2em;
+    background: white;
+    line-height: 1em;
+    margin-left: -5em;
+    margin-top: 1em;
+    border-radius: 5%;
+    box-shadow: 5px 5px 5px 0 rgba(0,0,0,0.05);
+}
 
 .portfolio-title {
     font-weight: bold;
