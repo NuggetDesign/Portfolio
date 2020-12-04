@@ -21,7 +21,7 @@ img {
 
 .nav-container {
   background: #3B8080;
-  font-size: 10px;
+  font-size: 12px;
 }
 
 .nav-container a {
@@ -40,6 +40,7 @@ header {
 
 header .logo {
   color: #F5D086;
+  font-size: 14px;
   font-weight: bold;
 }
 
