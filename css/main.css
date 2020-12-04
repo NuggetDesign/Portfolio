@@ -21,7 +21,7 @@ img {
 
 .nav-container {
   background: #3B8080;
-  font-size: 14px;
+  font-size: 10px;
 }
 
 .nav-container a {
@@ -64,7 +64,7 @@ header ul a {
   display: -ms-grid;
   display: grid;
   text-align: center;
-  padding: 1em;
+  padding: 2em;
   line-height: 2em;
 }
 
