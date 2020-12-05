@@ -5,10 +5,11 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Nugget</title>
     <link rel="stylesheet" href="css/main.css">
+    <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
 </head>
 <body>
 
-<!--This is for Navigation Bar-->
+<!--This is for Navigation Bar-->                                       
     <div class="nav-container">
         <header>
             <a href="index.html" class="logo">Nugget</a>
@@ -55,21 +56,21 @@
     <section class="service">
         <div class="service-container">
             <ul>
-                <li class="transition2">
+                <li data-aos="fade-left">
                     <div class="icon-container">
                         <img src="images/vector.png" alt="illustration">
                     </div>
                     <p class="service-title">Illustration</p>
                     <p class="skill-desc">Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod </p>
                 </li>
-                <li class="transition2">
+                <li data-aos="fade-right">
                     <div class="icon-container">
                         <img src="images/plant-pot.png" alt="Vector">
                     </div>
                     <p class="service-title">Illustration</p>
                     <p class="skill-desc">Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod </p>
                 </li>
-                <li class="transition2">
+                <li data-aos="fade-left">
                     <div class="icon-container">
                         <img src="images/ui-design.png" alt="ui/ux">
                     </div>
@@ -82,10 +83,10 @@
 
     <section class="porfolio">
 
-        <div class="left-container transition3">
-            <a href="#"><img class="img-left one" src="images/IMG_1328.PNG" alt="Ivan"></a>
+        <div class="left-container">
+            <a href="#" data-aos="fade-in"><img class="img-left one" src="images/IMG_1328.PNG" alt="Ivan"></a>
             <div class="text-right">
-                <div class="right">
+                <div class="right" data-aos="fade-left">
                     <p class="portfolio-title">Latest Work</p>
                     <p class="portfolio-subtitle">Profile Picture</p>
                     <div class="portfolio-button">
@@ -95,7 +96,7 @@
             </div>
         </div>
         <div class="right-container one transition3">
-            <div class="text-left">
+            <div class="text-left" data-aos="fade-right">
                 <div class="left">
                     <p class="portfolio-title">Illust-ration</p>
                     <p class="portfolio-subtitle">Logo for MCOP</p>
@@ -104,12 +105,12 @@
                     </div>
                 </div>
             </div>
-            <a href="#"><img class="img-right" src="images/IMG_1332.PNG" alt="Ivan"></a>
+            <a href="#" data-aos="fade-in"><img class="img-right" src="images/IMG_1332.PNG" alt="Ivan"></a>
         </div>
         <div class="left-container transition3">
-            <a href="#"><img class="img-left two" src="images/Annotation 2020-11-30 000716.png" alt="Ivan"></a>
+            <a href="#" data-aos="fade-in"><img class="img-left two" src="images/Annotation 2020-11-30 000716.png" alt="Ivan"></a>
             <div class="text-right">
-                <div class="right">
+                <div class="right" data-aos="fade-left">
                     <p class="portfolio-title">UI/UX Design</p>
                     <p class="portfolio-subtitle">Nuggets Portfolio</p>
                     <div class="button-unavailable">
@@ -119,6 +120,10 @@
             </div>
         </div>
     </section>
+    <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+    <script>
+      AOS.init();
+    </script>
 </body>
 <footer>
     <div class>
