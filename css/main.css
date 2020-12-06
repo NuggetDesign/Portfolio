@@ -27,6 +27,10 @@ img {
   color: #3b3b3b;
 }
 
+.nav-container h1 {
+  margin: 0px;
+}
+
 header {
   display: -webkit-box;
   display: -ms-flexbox;
