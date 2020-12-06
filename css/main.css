@@ -3,6 +3,7 @@ body {
   height: 100vh;
   margin: 0;
   font-family: 'Poppins', arial;
+  overflow-x: hidden;
 }
 
 ul {
@@ -20,12 +21,11 @@ img {
 }
 
 .nav-container {
-  background: #3B8080;
   font-size: 13px;
 }
 
 .nav-container a {
-  color: white;
+  color: black;
 }
 
 header {
@@ -60,12 +60,14 @@ header ul a {
 }
 
 .hero {
-  background: #468888;
+  background: url("../images/SVG/top_8.svg") no-repeat;
+  background-size: cover;
+  margin-top: -5em;
   color: white;
   display: -ms-grid;
   display: grid;
   text-align: center;
-  padding: 4em 2em 5em;
+  padding: 8em 2em 5em;
   line-height: 2.5em;
 }
 
@@ -89,6 +91,7 @@ header ul a {
 }
 
 section {
+  margin: 0;
   padding: 4em 2em;
   text-align: center;
 }
@@ -96,14 +99,10 @@ section {
 .more-title {
   font-weight: bold;
   font-size: 17px;
-  text-align: center;
-  padding: 0em 1em;
-  margin-top: 2em;
-  margin-bottom: 2em;
+  margin: 2em 2em 2em;
 }
 
 .more-desc {
-  text-align: center;
   padding: 0em 1em;
 }
 
@@ -123,7 +122,6 @@ section {
   width: 100px;
   display: -ms-grid;
   display: grid;
-  place-content: center;
   margin: 0 auto;
   margin-top: 2em;
 }
@@ -241,5 +239,50 @@ section {
   color: white;
   font-weight: bold;
   font-size: 12px;
+}
+
+footer {
+  height: 40vh;
+  margin: 0 auto;
+  background: url("../images/SVG/Asset 4.svg") no-repeat;
+  background-size: cover;
+  margin-top: -10em;
+}
+
+footer img {
+  width: 40px;
+}
+
+.foot-container {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  padding: 3em;
+}
+
+.foot-logotext {
+  font-weight: bold;
+}
+
+.footer-hyper {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.footer-hyper ul {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  padding: 3em;
+}
+
+.footer-hyper ul a {
+  display: block;
+  padding: 0 1em;
+  color: black;
 }
 /*# sourceMappingURL=main.css.map */
