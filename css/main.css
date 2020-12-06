@@ -4,6 +4,8 @@ body {
   margin: 0;
   font-family: 'Poppins', arial;
   overflow-x: hidden;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
 }
 
 ul {
@@ -25,7 +27,7 @@ img {
 }
 
 .nav-container a {
-  color: black;
+  color: #3b3b3b3b;
 }
 
 header {
@@ -60,7 +62,7 @@ header ul a {
 }
 
 .hero {
-  background: url("../images/SVG/top_8.svg") no-repeat;
+  background: url("../images/SVG/top.svg") no-repeat;
   background-size: cover;
   margin-top: -5em;
   color: white;
