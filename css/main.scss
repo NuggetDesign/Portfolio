@@ -1,11 +1,9 @@
 @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;700&display=swap');
  
 body {
-    height: 100vh;
     margin: 0;
     font-family: 'Poppins', arial;
     overflow-x: hidden;
-    box-sizing: border-box;
 }
 
 ul {
@@ -22,7 +20,7 @@ img {width:100%;}
     font-size: 13px;
 
     a {
-        color: #3b3b3b;
+        color: white;
     }
 }
 
